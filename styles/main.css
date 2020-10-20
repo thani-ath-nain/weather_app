@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.child {
+  display: flex;
+  justify-content: center;
+}
+.main-title {
+  font-size: 50px;
+  font-weight: lighter;
+}
