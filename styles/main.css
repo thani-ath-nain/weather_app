@@ -1,11 +1,59 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  height: 100%;
+  margin: 0;
 }
 .child {
   display: flex;
   justify-content: center;
 }
+
 .main-title {
   font-size: 50px;
   font-weight: lighter;
+  color: darkcyan;
+}
+.weather-value {
+  position: absolute;
+  font-size: 60px;
+  color: darkgray;
+  top: 160px;
+}
+.weather-unit {
+  position: absolute;
+  color: darkgray;
+  top: 200px;
+  right: 620px;
+}
+.city-input {
+  border: none;
+  border-bottom: 1px solid cyan;
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 415px;
+  width: 35%;
+}
+.city-name {
+  color: darkkhaki;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+  font-weight: lighter;
+  position: absolute;
+  top: 200px;
+  left: 820px;
+}
+.city-input:focus {
+  outline: none !important;
+  border: 1px solid aqua;
+  box-shadow: 0 0 10px #719ece;
+}
+.weather-detail {
+  font-size: larger;
+  font-weight: lighter;
+  position: absolute;
+  top: 340px;
+  color: cadetblue;
+  border-radius: 20px;
 }
